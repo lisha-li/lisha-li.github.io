@@ -1,0 +1,31 @@
+#peek, #slide-2 {
+	display: none;
+}
+.teaser{ 
+	font-variant: small-caps;
+	position: relative;
+	font-size:20px;
+}
+.awesome{
+	color: #E8D0A9;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+	#peek, #slide-2 {
+		display: initial;
+	}
+	#peek-m, #browser {
+		display: none;
+	}
+	
+	.teaser {
+		font-size:30px;
+		padding: 50px;
+	}
+	
+	.tease {
+		width: 500px;
+		height: 500px;
+	}
+}

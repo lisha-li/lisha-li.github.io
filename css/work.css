@@ -1,0 +1,24 @@
+.wrapper {
+	margin-top: -20px;
+	margin-bottom: 70px;
+}
+.desc {
+	background-color: rgba(255,255,255,0.8);
+	padding: 50px 20px;
+}
+.desc img {
+	max-width: 50%;
+	height: auto;
+}
+.wrapper a:link, .wrapper a:visited, .wrapper a:active{
+	color: #666666;
+}
+.wrapper a:hover {
+	color: #608099;
+}
+@media only screen and (min-width: 600px) {
+	.wrapper {
+		margin-top: -50px;
+		margin-bottom: 50px;
+	}
+}

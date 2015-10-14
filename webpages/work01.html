@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Winter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" href = "../css/common.css" />
+		<link rel = "stylesheet" href = "../css/work.css" />
+		<link rel = "stylesheet" href="../scripts/owlcarousel/assets/owl.carousel.css">
+		<link rel = "stylesheet" href="../scripts/owlcarousel/assets/owl.carousel.theme.css">
+		
+		<script src="../scripts/jquery-1.11.3.min.js"></script>
+		<script src="../scripts/owlcarousel/owl.carousel.js"></script>
+		<script src="../scripts/owlcarousel/owl.carousel.min.js"></script>
+	
+		<script>
+			$(document).ready(function(){
+			  $(".owl-carousel").owlCarousel({
+				loop:true,
+				nav:true,
+				center: true,
+				items: 1,
+				autoplay: true,
+				autoplayTimeout:3000,
+				autoplayHoverPause:true,
+			  })
+			});
+		</script>
+	</head>
+	
+	<body>
+		<header>
+			<img src="../img/logo.png" />
+			<h1>Lisha Li</h2>
+			<p>Web Designer | Illustrator<p>
+		</header>
+		
+		<nav class="menu">
+			<ul>
+				<li class="menuM"><a href="../index.html" >Home</a></li>
+				<li class="menuM"><a style="border-bottom: 2px solid #E8D0A9" href="gallery.html" >Portfolio</a></li>
+				<li class="menuM"><a href="about.html" >About</a></li>
+			</ul>
+		</nav>
+		
+		<section class="col-8 col-m-8 wrapper">
+			<div class="owl-carousel">
+				<div class="item"><img src="../img/WT01.jpg" /></div>
+				<div class="item"><img src="../img/WT02.jpg" /></div>
+				<div class="item"><img src="../img/WT03.jpg" /></div>
+				<div class="item"><img src="../img/WT04.jpg" /></div>
+				<div class="item"><img src="../img/WT05.jpg" /></div>
+			</div>
+			<div class="owl-controls">
+				<div class="owl-dots">
+					<div class="owl-dot active"><span></span></div>
+					<div class="owl-dot"><span></span></div>
+					<div class="owl-dot"><span></span></div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="col-4 col-m-4 wrapper">
+			<article class="desc">
+				<img src="../img/work01_title.png" />
+				<p><b>Date:</b> 2014</p>
+				<p><b>Type:</b> Website / Mobile Application</p>
+				<p><b>Involvement:</b> Project Leader, Research, Wireframe, UX, Web development </p>
+				</br>
+				<p><b>Description</b></b>
+				<p>
+				Winter is a mobile application that monitors your connected smart kitchen appliances anywhere through WIFI or 3G. It learns your cooking habits overtime and predicts your preferences then recommend recipes based on what ingredients are available on hand.
+				</p>
+				<p>
+				This is a team project for DECO2200 - Interaction Design at the University of Sydney.
+				</p>
+				</br>
+				<p>For more information about this project please look at the <a href="../data/winter_documentation.pdf" target="_blank">documentation</a>.</p>
+			</article>
+		</section>
+		
+		<section class="col-12 col-m-12 wrapper">
+			<h2 class="back"><a href="javascript:history.back()">Go Back</a></h2>
+		</section>
+
+		<footer>
+			<p>Site design & developed by: Lisha Li | Copyright &copy; 2015 Lisha Li</p>
+		</footer>
+		
+	</body>
+</html>

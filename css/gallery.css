@@ -1,0 +1,31 @@
+.work {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin: 10px;
+	background: black;
+}
+.work img {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	display: block;
+}
+.work:hover img{
+	opacity: 0.5;
+}
+.work h3{
+	position: relative;
+	margin-top: 50px;
+	padding: 10px;
+	visibility: hidden;
+}
+.work p {
+	position: relative;
+	padding: 10px;
+	margin-top: 20px;
+	visibility: hidden;
+}
+.work:hover h3, .work:hover p{
+	visibility: visible;
+}

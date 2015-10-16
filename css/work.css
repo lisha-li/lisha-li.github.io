@@ -1,13 +1,16 @@
 .wrapper {
-	margin-top: -20px;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
+	padding: 10px;
 }
 .desc {
-	background-color: rgba(255,255,255,0.8);
-	padding: 50px 20px;
+	width: 90%;
+	margin: 0 auto;
 }
-.desc img {
-	max-width: 50%;
+.work-logo {
+	width: 100%;
+}
+.work-logo img{
+	max-width: 70%;
 	height: auto;
 }
 .wrapper a:link, .wrapper a:visited, .wrapper a:active{
@@ -18,7 +21,16 @@
 }
 @media only screen and (min-width: 600px) {
 	.wrapper {
-		margin-top: -50px;
+		margin-top: 180px;
 		margin-bottom: 50px;
+		padding: 0;
+	}
+	.desc {
+		padding:25px;
+		width: 50%;
+	}
+	.work-img {
+		width: 80%;
+		margin: 0 auto;
 	}
 }

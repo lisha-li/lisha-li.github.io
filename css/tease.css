@@ -1,3 +1,9 @@
+html {
+	background:  url("../img/bg.jpg") fixed no-repeat;
+}
+header {
+	background: none;
+}
 #peek, #slide-2 {
 	display: none;
 }
@@ -5,6 +11,10 @@
 	font-variant: small-caps;
 	position: relative;
 	font-size:20px;
+	background: #F5FAFA;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 25px;
 }
 .awesome{
 	color: #E8D0A9;
@@ -18,14 +28,15 @@
 	#peek-m, #browser {
 		display: none;
 	}
-	
 	.teaser {
 		font-size:30px;
 		padding: 50px;
 	}
-	
 	.tease {
 		width: 500px;
 		height: 500px;
+	}
+	header{
+		position: fixed;
 	}
 }

@@ -43,6 +43,8 @@
 		visibility: hidden;
 	}
 	.work p {
+		position: absolute;
+		width: 300px;
 		visibility: hidden;
 	}
 	.work:hover h3, .work:hover p{
